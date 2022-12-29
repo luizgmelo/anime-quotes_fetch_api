@@ -29,7 +29,7 @@ button:hover {
 .character {
     width: 300px;
     background-color: lightyellow;
-    margin: 10px 10px 0px 10px;
+    margin: 10px auto 0px;
     padding: 10px;
     text-align: center;
     text-decoration: underline;
@@ -41,7 +41,7 @@ button:hover {
 .citation {
     width: 300px;
     text-align: center;
-    margin: 0px 10px;
+    margin: 0px auto;
     border: 1px solid black;
     border-top: 0px;
     border-radius: 0px 0px 10px 10px;
