@@ -6,6 +6,23 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    height: 98vh;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 300px;
+    min-height: 97vh;
+    background-color: white;
+    margin: 0px auto;
+    padding: 10px;
+}
+
 h1, p  {
     padding: 10px;
     text-align: center;
@@ -17,31 +34,35 @@ button {
     color: black;
     cursor: pointer;
     margin: auto;
+    margin-bottom: 10px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
 }
 
 button:hover {
-    background-color: lightyellow;
+    color: white;
+    background-color: red;
 }
 
 .character {
-    width: 300px;
-    background-color: lightyellow;
-    margin: 10px auto 0px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    margin: 0px auto;
     padding: 10px;
     text-align: center;
-    text-decoration: underline;
     border: 1px solid black;
     border-bottom: 0px;
     border-radius: 10px 10px 0px 0px;
 }
 
 .citation {
-    width: 300px;
+    width: 200px;
+    background: white;
     text-align: center;
     margin: 0px auto;
+    margin-bottom: 10px;
     border: 1px solid black;
     border-top: 0px;
     border-radius: 0px 0px 10px 10px;
